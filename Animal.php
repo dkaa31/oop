@@ -4,7 +4,7 @@ class Animal {
     public $kaki;
     public $darah;
 
-    public function __construct($nama, $kaki = 4, $darah = "no") {
+    public function __construct($nama, $kaki = 4, $darah = "NO") {
         $this->nama = $nama;
         $this->kaki = $kaki;
         $this->darah = $darah;
